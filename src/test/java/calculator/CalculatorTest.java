@@ -10,8 +10,6 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
 
         int result = calculator.add(5, 5);
-
-        //We want to do the more simple thing : add numbers
         assertTrue(result == 10);
     }
 
@@ -21,8 +19,6 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
 
         int result = calculator.subtract(10, 5);
-
-        //We want to do the more simple thing : add numbers
         assertTrue( result == 5);
     }
 
@@ -31,8 +27,6 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
 
         int result = calculator.multiply(10, 5);
-
-        //We want to do the more simple thing : add numbers
         assertTrue(result == 50);
     }
 
@@ -41,8 +35,6 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
 
         int result = calculator.divide(10, 5);
-
-        //We want to do the more simple thing : add numbers
         assertTrue(result == 2);
     }
 
